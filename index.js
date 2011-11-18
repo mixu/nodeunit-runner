@@ -113,10 +113,8 @@ exports.run = function (files, options) {
                      '\n' + bold(ok('OK: ')) + assertions.length +
                      ' assertions (' + assertions.duration + 'ms)'
                   );
-
-                  process.reallyExit();
-
               }
+              process.reallyExit();
           },
           testStart: function(name) {
               tracker.put(name);
