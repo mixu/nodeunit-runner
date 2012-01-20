@@ -1,5 +1,5 @@
 
-var nodeunit = require('../nodeunit'),
+var nodeunit = require('nodeunit'),
     utils = nodeunit.utils,
     fs = require('fs'),
     track = require('./track.js'),
