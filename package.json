@@ -1,11 +1,11 @@
 { "name": "nodeunit-runner",
   "description": "A simple nodeunit test runner for invoking tests via node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url":  "git://github.com/mixu/nodeunit-runner.git" },
   "dependencies": {
-    "nodeunit": "0.5.x"
+    "nodeunit": "0.6.x"
   },
   "private":true
 }
